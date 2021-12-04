@@ -1,0 +1,15 @@
+package view;
+
+import java.awt.Color;
+
+import javax.swing.*;
+
+public class CentimeterArea extends JTextArea {
+	
+	public CentimeterArea() {
+		super();
+		super.setBackground(Color.YELLOW);
+		super.setBounds(171, 240, 222, 200);
+	}
+
+}

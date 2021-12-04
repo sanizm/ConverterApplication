@@ -1,0 +1,14 @@
+package view;
+
+import javax.swing.*;
+
+public class ConverterPanel extends JPanel {
+	
+	public ConverterPanel() {
+		super();
+		super.setBounds(0, 0, 582, 560);
+		super.setLayout(null);
+	}
+
+	
+}

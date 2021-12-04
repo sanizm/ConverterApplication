@@ -1,0 +1,29 @@
+package main;
+
+import javax.swing.*;
+
+import model.Calculator;
+import view.ConverterMenuBar;
+import view.ConverterPanel;
+
+
+public class TheConverterApp {
+
+	public static void main(String[] args) {
+	
+		JFrame frame = new JFrame("The Converter Application");
+		ConverterPanel panel = new ConverterPanel();
+		ConverterMenuBar menuBar = new ConverterMenuBar();
+		panel.add(menuBar);
+		frame.getContentPane().add(panel);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().setLayout(null);
+        frame.setSize(600, 600);
+        frame.setLocationRelativeTo(null);
+        frame.setResizable(false);
+        frame.setVisible(true);
+
+		
+	}
+
+}
