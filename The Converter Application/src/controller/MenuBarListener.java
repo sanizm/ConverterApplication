@@ -15,7 +15,7 @@ public class MenuBarListener implements ActionListener{
 	private JTextArea fa;
 	private JTextArea ma;
 	private JTextArea ca;
-	private Calculator calc;
+	private ValueToConvert calc;
 	
 	public MenuBarListener(ConverterPanel panel, JTextArea fa, JTextArea ma, JTextArea ca) {
 		this.panel = panel;
@@ -28,7 +28,7 @@ public class MenuBarListener implements ActionListener{
 	public void actionPerformed(ActionEvent e) {
 		if(e.getActionCommand().equals("update")) {
 	    this.centimeter = Double.parseDouble(ca.getText());
-		this.calc = new Calculator(this.centimeter);
+		this.calc = new ValueToConvert(this.centimeter);
 			this.fa.setText(""+this.calc.getinFeet()+"ft");
 			this.ma.setText(""+this.calc.getinMeter()+"m");
 		}

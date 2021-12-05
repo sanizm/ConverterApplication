@@ -14,9 +14,9 @@ public class TheConverterApp {
 		JFrame frame = new JFrame("The Converter Application");
 		ConverterPanel panel = new ConverterPanel();
 		
-		FeetArea feetarea = new FeetArea();
-		CentimeterArea centimeterarea = new CentimeterArea();
-		MeterArea meterarea = new MeterArea();
+		FeetConversionArea feetarea = new FeetConversionArea();
+		CentimetersConversionArea centimeterarea = new CentimetersConversionArea();
+		MeterConversionArea meterarea = new MeterConversionArea();
 		MenuBarListener mbListener = new MenuBarListener(panel, feetarea,meterarea,centimeterarea);
 		ConverterMenuBar menuBar = new ConverterMenuBar(mbListener);
 		panel.add(feetarea);
