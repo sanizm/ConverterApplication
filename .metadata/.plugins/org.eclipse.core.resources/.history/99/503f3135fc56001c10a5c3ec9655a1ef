@@ -8,13 +8,6 @@ import javax.swing.JTextArea;
 import model.*;
 import view.*;
 
-/**
- * 
- * @class MenuBarListener
- * This class basically takes care of the user-action and displaying of calculation done by model class
- * 
- */
-
 public class MenuBarListener implements ActionListener{
 	
 	public ConverterPanel panel;
@@ -31,11 +24,6 @@ public class MenuBarListener implements ActionListener{
 		this.ma = ma;
 	}
 
-	/**
-	 * In this method whenever the user click Update Model button the conversion calculated in the model class
-	 * are displayed on the respected TextArea.
-	 * @param ActionEvent e
-	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getActionCommand().equals("update")) {

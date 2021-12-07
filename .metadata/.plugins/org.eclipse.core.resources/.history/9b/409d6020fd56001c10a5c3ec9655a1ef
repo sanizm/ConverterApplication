@@ -5,13 +5,7 @@ import javax.swing.*;
 import controller.*;
 import model.*;
 import view.*;
-/**
- * 
- * this is the main entry point to the ConverterApp
- * All the objects are instantiated by this class.
- * class TheConverterApp
- *
- */
+
 
 public class TheConverterApp {
 

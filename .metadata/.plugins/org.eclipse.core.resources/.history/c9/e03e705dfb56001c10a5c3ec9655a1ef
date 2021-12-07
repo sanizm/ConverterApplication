@@ -4,15 +4,7 @@ import java.awt.event.*;
 
 import javax.swing.*;
 
-
 public class ConverterMenuBar extends JMenuBar {
-	
-	
-	/**
-	 * This is the method whose function is to add event handling to MenuBar whenever user clicks the update Model button
-	 * to retrieve the values in feet and meter textarea it is done through this method.
-	 * @param mbListener
-	 */
 
 	public ConverterMenuBar(ActionListener mbListener) {
 		super();
