@@ -21,4 +21,4 @@ A simple Converter Application made with JAVA 16 and JAVA SWING
 
 ## HOW TO RUN
 
-- [TUTORIAL](https://github.com/a-mohamad/soccer-game/blob/main/Documentation/report/report.pdf)
+- [TUTORIAL](https://github.com/sanizm/ConverterApplication/blob/master/Video/zoom_0.mp4)
